@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
 	setlocale(0, "");
-	cout << "1 çàäàíèå" << endl;
+	cout << "1 Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ << endl;
 	cout << "int " << sizeof(int) << endl;
 	cout << "short int " << sizeof(short int) << endl;
 	cout << "long int " << sizeof(long int) << endl;
@@ -11,11 +11,11 @@ int main() {
 	cout << "long double " << sizeof(long double) << endl;
 	cout << "char " << sizeof(char) << endl;
 	cout << "bool " << sizeof(bool) << endl;
-	cout << endl << "2 çàäàíèå" << endl << "Ââåäèòå ÷èñëî ";
+	cout << endl << "2 Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ << endl << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ";
 	int k;
 	cin >> k;
 	unsigned int d;
-	cout << "Ââåäèòå êîë-âî ðàçðÿäîâ ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ñ€ÑÐ´Ñ‹ ";
 	cin >> d;
 	unsigned m = 1 << d - 1;
 	for (int i = 1; i <= d; i++)
@@ -33,12 +33,12 @@ int main() {
 
 	}
 	cout << endl << endl;
-	cout << "3 çàäàíèå" << endl;
+	cout << "3 Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ" << endl;
 	union {
 		float pi = 3.14;
 		int a;
 	};
-	cout << "Ââåäèòå ÷èñëî ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ";
 	cin >> pi;
 	m = 1 << d - 1;
 	for (int i = 1; i <= d; i++)
@@ -56,12 +56,12 @@ int main() {
 
 	}
 	cout << endl << endl;
-	cout << "4 çàäàíèå" << endl;
+	cout << "4 Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ" << endl;
 	union {
 		double pi_1;
 		int b[2];
 	};
-	cout << "Ââåäèòå ÷èñëî ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ";
 	cin >> pi_1;
 	m = 1 << d - 1;
 	for (int j = 1; j >= 0; j--)
